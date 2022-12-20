@@ -6,6 +6,7 @@ let pokemonList= [
     { name: 'Squirtle', type: 'water', weight:19.8, height: 1.8, weaknesses: 'electric' },
     { name: 'Charmander', type: 'fire', weight:18.8, height: 2.0,weaknesses:'water,ground,rock' }
 ]
+//creating loop that iterates over each item
 for (let i = 0;
     i < pokemonList.length; i++) {
     if(pokemonList[i].height >= 3) {
