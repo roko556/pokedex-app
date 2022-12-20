@@ -6,4 +6,15 @@ let pokemonList= [
     { name: 'Squirtle', type: 'water', weight:19.8, height: 1.8, weaknesses: 'electric' },
     { name: 'Charmander', type: 'fire', weight:18.8, height: 2.0,weaknesses:'water,ground,rock' }
 ]
-
+for (let i = 0;
+    i < pokemonList.length; i++) {
+    if(pokemonList[i].height >= 3) {
+        document.write(pokemonList[i].name + " height: " + pokemonList[i].height + "wow, that's big" + "<br>")
+    }
+    else if (pokemonList[i].height >= 1 && pokemonList[i].height <3){
+        document.write(pokemonList[i].name + " height: " + pokemonList[i].height+ "<br>" )
+    }
+    else {
+        document.write(pokemonList[i].name + " height: " + pokemonList[i].height+ "<br>" )
+    }
+}
