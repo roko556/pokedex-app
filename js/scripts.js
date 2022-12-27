@@ -36,7 +36,7 @@ pokemonList.forEach(printDetails);
 function printDetails (pokemon) {
 	let highlight = '';
 	if (pokemon.height > 5.0) {
-		highlight = " - Wow, that\’s big!";
+		highlight = " - Wow, this one is huge!";
 	}
 	document.write(`<li>${pokemon.name}(type: ${pokemon.type}) ${highlight}</li>`);
 }
